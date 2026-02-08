@@ -2,10 +2,9 @@
 это мой rice для оконного менеджера [niri](https://github.com/YaLTeR/niri).
 
 ## скриншоты
-![скриншот рабочего стола](./screenshots/Screenshot from 2026-02-08 07-58-23.png)
-
-![скриншот рабочего стола 2]("./screenshots/Screenshot from 2026-02-08 07-28-01.png")
-![скриншот рабочего стола 3]("./screenshots/Screenshot from 2026-02-08 08-01-07.png")
+![Скриншот рабочего стола Niri](screenshots/Screenshot-from-2026-02-08-07-58-23.png)
+![Скриншот рабочего стола Niri 2](screenshots/Screenshot-from-2026-02-08-07-28-01.png)
+![Скриншот рабочего стола Niri 3](screenshots/Screenshot-from-2026-02-08-08-01-07.png)
 
 ## особенности
 *   собранные патчи: нет
