@@ -143,7 +143,7 @@ layout {
         // - CSS-like notation: "rgb(255, 127, 0)", rgba(), hsl() and a few others.
 
         // Color of the ring on the active monitor.
-        active-color "#7fc8ff"
+        active-color "#7D9170"
 
         // Color of the ring on inactive monitors.
         //
@@ -243,6 +243,10 @@ layout {
 // which may be more convenient to use.
 // See the binds section below for more spawn examples.
 
+spawn-at-startup "dbus-update-activation-environment" "--systemd" "WAYLAND_DISPLAY" "XDG_CURRENT_DESKTOP=niri"
+spawn-at-startup "systemctl --user stop xdg-desktop-portal xdg-desktop-portal-wlr && systemctl --user start xdg-desktop-portal"
+
+
 // This line starts waybar, a commonly used bar for Wayland compositors.
 spawn-at-startup "waybar"
 spawn-sh-at-startup "wl-paste --type text --watch cliphist store"
@@ -252,7 +256,9 @@ spawn-sh-at-startup "kdeconnectd"
 spawn-sh-at-startup "python /home/tema/my-startpage/server.py"
 spawn-sh-at-startup "docker run searxng"
 spawn-sh-at-startup "gammastep"
-
+spawn-at-startup "flameshot"
+spawn-at-startup "firefox"
+spawn-sh-at-startup "Telegram"
 
 // To run a shell command (with variables, pipes, etc.), use spawn-sh-at-startup:
 // spawn-sh-at-startup "qs -c ~/source/qs/MyAwesomeShell"
@@ -261,6 +267,13 @@ hotkey-overlay {
     // Uncomment this line to disable the "Important Hotkeys" pop-up at startup.
     // skip-at-startup
 }
+
+xwayland-satellite {
+    // Niri сам найдет бинарник в PATH и запустит его
+    // Если нужно передать флаги, можно добавить:
+    // spawn "xwayland-satellite" ":0"
+}
+
 
 // Uncomment this line to ask the clients to omit their client-side decorations if possible.
 // If the client will specifically ask for CSD, the request will be honored.
@@ -322,6 +335,19 @@ window-rule {
     // Use this instead if you want them visible on third-party screenshot tools.
     // block-out-from "screencast"
 }
+window-rule {
+    match app-id="^firefox$"
+    open-on-workspace "1"
+    open-maximized true
+}
+
+window-rule {
+    // Для нативного Telegram из Arch репозиториев
+    match app-id="org.telegram.desktop"
+    match app-id="Telegram"
+    open-on-workspace "1"
+    open-maximized true
+}
 
 // Example: enable rounded corners for all windows.
 // (This example rule is commented out with a "/-" in front.)
@@ -346,7 +372,7 @@ binds {
     Mod+Shift+Slash { show-hotkey-overlay; }
 
     Mod+V hotkey-overlay-title="Open clipmenu"{spawn-sh "cliphist list | fuzzel --dmenu | cliphist decode | wl-copy"; }
-
+    
     // Suggested binds for running programs: terminal, app launcher, screen locker.
     Mod+Return hotkey-overlay-title="Open a Terminal: foot" { spawn "foot"; }
     Mod+D hotkey-overlay-title="Run an Application: fuzzel" { spawn "fuzzel"; }
@@ -585,9 +611,9 @@ binds {
     // Mod+Space       { switch-layout "next"; }
     // Mod+Shift+Space { switch-layout "prev"; }
 
-    Print { screenshot; }
-    Ctrl+Print { screenshot-screen; }
-    Alt+Print { screenshot-window; }
+    Print { spawn-sh  "flameshot gui"; }
+    // Ctrl+Print { screenshot-screen; }
+    // Alt+Print { screenshot-window; }
 
     // Applications such as remote-desktop clients and software KVM switches may
     // request that niri stops processing the keyboard shortcuts defined here
