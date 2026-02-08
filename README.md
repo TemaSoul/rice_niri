@@ -2,8 +2,8 @@
 это мой rice для оконного менеджера [niri](https://github.com/YaLTeR/niri).
 
 ## скриншоты
-![Скриншот рабочего стола Niri](./screenshots/fetch.png)
-![Скриншот рабочего стола Niri 2](./screenshots/niri.png)
+![Скриншот рабочего стола Niri](./screenshots/fetch_2026-02-08_13-02.png)
+![Скриншот рабочего стола Niri 2](./screenshots/desktop_2026-02-08_13-02.png)
 ![Скриншот рабочего стола Niri 3](./screenshots/keybind.png)
 
 ## особенности
