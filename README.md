@@ -8,7 +8,7 @@
 
 ## особенности
 *   собранные патчи: нет
-*   цветовая схема: `gruvbox(частичный)`
+*   цветовая схема: `gruvbox`
 *   используемые утилиты: [fuzzel](https://codeberg.org/dnkl/fuzzel), [foot](https://codeberg.org/dnkl/foot), [cliphist](https://github.com/sentriz/cliphist), [swww](https://github.com/LGFae/swww), [zellij](https://github.com/zellij-org/zellij), [fish](https://github.com/fish-shell/fish-shell), [gammastep](https://gitlab.com/chinstrap/gammastep)
 
 ## зависимости
