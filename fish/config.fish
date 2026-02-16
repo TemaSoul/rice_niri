@@ -12,4 +12,5 @@ alias mpv_yt='mpv --ytdl-raw-options=force-ipv4="" '
 
 
 set -gx DISPLAY :0
+set -x EDITOR nvim
 stty -ixon
