@@ -5,8 +5,7 @@
 ![Скриншот рабочего стола Niri 0](./screenshots/fetch_2026-02-16_06-05.png)
 ![Скриншот рабочего стола Niri 1](./screenshots/tmux_2026-02-18_17-34.png)
 ![Скриншот рабочего стола Niri 2](./screenshots/nvim_2026-02-16_06-18.png)
-![Скриншот рабочего стола Niri 3](./screenshots/desktop_2026-02-16_06-06.png)
-![Скриншот рабочего стола Niri 4](./screenshots/keybind.png)
+![Скриншот рабочего стола Niri 3](./screenshots/keybind.png)
 
 ## особенности
 *   цветовая схема: `gruvbox`
