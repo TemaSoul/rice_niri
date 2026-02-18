@@ -11,15 +11,15 @@
 ## особенности
 *   цветовая схема: `gruvbox`
 *   используемые утилиты: 
-** [neovim](https://github.com/neovim/neovim) 
-** [fuzzel](https://codeberg.org/dnkl/fuzzel) 
-** [foot](https://codeberg.org/dnkl/foot) 
-** [cliphist](https://github.com/sentriz/cliphist)
-** [swww](https://github.com/LGFae/swww)
-** [tmux](https://github.com/tmux/tmux)
-** [fish](https://github.com/fish-shell/fish-shell)
-** [gammastep](https://gitlab.com/chinstrap/gammastep)
-** [moc](https://wiki.archlinux.org/title/MOC)
+    [neovim](https://github.com/neovim/neovim) 
+    [fuzzel](https://codeberg.org/dnkl/fuzzel) 
+    [foot](https://codeberg.org/dnkl/foot) 
+    [cliphist](https://github.com/sentriz/cliphist)
+    [swww](https://github.com/LGFae/swww)
+    [tmux](https://github.com/tmux/tmux)
+    [fish](https://github.com/fish-shell/fish-shell)
+    [gammastep](https://gitlab.com/chinstrap/gammastep)
+    [moc](https://wiki.archlinux.org/title/MOC)
 
 ## зависимости
 *   базовые инструменты сборки: `base-devel`, `git`
