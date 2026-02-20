@@ -20,7 +20,11 @@
     [gammastep](https://gitlab.com/chinstrap/gammastep),
     [moc](https://wiki.archlinux.org/title/MOC)
 
+## конфигурация tmux
+
+В этом репозитории лежит мой конфиг **tmux** с [tpm](https://github.com/tmux-plugins/tpm) и [gruvbox](https://github.com/TemaSoul/rice_niri/tree/main/tmux/.tmux/plugins/tmux-gruvbox)
+
 ## зависимости
 *   базовые инструменты сборки: `base-devel`, `git`
-*   дополнительные программы: `swww`, `flameshot`, `gammastep`, `tmux`, `fish`, `cliphist`, `fuzzel`, `foot`, `niri`
+*   дополнительные программы: `swww`, `flameshot`, `gammastep`, `tmux`, `fish`, `cliphist`, `fuzzel`, `foot`, `niri` 
 
