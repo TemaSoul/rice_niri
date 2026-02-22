@@ -2,15 +2,14 @@
 это мой rice для оконного менеджера [niri](https://github.com/YaLTeR/niri).
 
 ## скриншоты
-![Скриншот рабочего стола Niri 0](./screenshots/fetch_2026-02-20_19-43.png)
-![Скриншот рабочего стола Niri 1](./screenshots/tmux_2026-02-20_19-42.png)
-![Скриншот рабочего стола Niri 2](./screenshots/mocp_2026-02-20_19-44.png)
-![Скриншот рабочего стола Niri 3](./screenshots/fuzzle_2026-02-20_19-45.png)
-![Скриншот рабочего стола Niri 4](./screenshots/nvim_2026-02-20_19-46.png)
+![Скриншот рабочего стола Niri 0](./screenshots/pfetch2026-02-22_19-34.png)
+![Скриншот рабочего стола Niri 1](./screenshots/tmux_2026-02-22_19-33.png)
+![Скриншот рабочего стола Niri 3](./screenshots/fuzzle_2026-02-22_19-35.png)
 ![Скриншот рабочего стола Niri 5](./screenshots/keybind.png)
 
 ## особенности
 *   цветовая схема: `gruvbox`
+*   стек: `Jupiter-37A` + `ART` + `Pywal`
 *   используемые утилиты: 
     [neovim](https://github.com/neovim/neovim),
     [fuzzel](https://codeberg.org/dnkl/fuzzel),
