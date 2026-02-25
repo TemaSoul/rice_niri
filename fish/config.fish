@@ -1,3 +1,4 @@
+# цвета
 cat ~/.cache/wal/sequences
 
 alias sudo="doas"
@@ -8,10 +9,14 @@ alias steam="wl-copy --clear; env DISPLAY=:0 /usr/bin/steam"
 alias yt-dlp_va='yt-dlp -4 -f "bestvideo+bestaudio/best" --no-mtime --merge-output-format mp4'
 # Аудио: чистый звук в m4a (лучшее качество без лишней перекодировки)
 alias yt-dlp_a='yt-dlp -4 -f "bestaudio/best" --no-mtime --extract-audio --audio-format m4a'
+# Онлайн просмотри для YouTube
 alias mpv_yt='mpv --ytdl-raw-options=force-ipv4="" '
-alias apowerconverter='~/.local/share/pipx/venvs/apowerconverter/bin/aPowerConverter'
+# root iftop
 alias iftop='doas iftop'
+# poweroff
+alias poweroff='systemctl poweroff'
 
+# переменные
 set -gx DISPLAY :0
 set -x EDITOR nvim
 stty -ixon
