@@ -222,4 +222,4 @@ require("lazy").setup({
 	checker = { enabled = true, notify = false },
 })
 
-print("Neovim config loaded (no warnings!)")
+print("Neovim config loaded (no warnings!) & Hello my new version")

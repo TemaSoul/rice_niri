@@ -1,0 +1,12 @@
+pl-create evangelion
+clear
+pl-add
+pl-create blue-archive-ost
+pl-create ~/Music/Blue\ Archive\ OST/
+pl-create
+colorscheme
+color
+add /home/tema/Music/
+q
+add ~/Music/*
+add
