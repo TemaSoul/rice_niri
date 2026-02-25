@@ -1,5 +1,5 @@
 # my rice niri
-это мой rice для оконного менеджера [niri](https://github.com/YaLTeR/niri).
+это мой *rice* для оконного менеджера [niri](https://github.com/YaLTeR/niri).
 
 ## скриншоты
 ![Скриншот рабочего стола Niri 0](./screenshots/pfetch_2026-02-23_07-21.png)
@@ -19,7 +19,7 @@
     [tmux](https://github.com/tmux/tmux),
     [fish](https://github.com/fish-shell/fish-shell),
     [gammastep](https://gitlab.com/chinstrap/gammastep),
-    [moc](https://wiki.archlinux.org/title/MOC)
+    [cmus](https://github.com/cmus/cmus)
 
 ## конфигурация tmux
 
