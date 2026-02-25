@@ -8,7 +8,7 @@
 ![Скриншот рабочего стола Niri 5](./screenshots/keybind.png)
 
 ## особенности
-*   цветовая схема: `gruvbox` + `Pywal`
+*   ![цветовая схема](./colors): `gruvbox` + `Pywal`
 *   стек: `Jupiter-37A` + `ART` + `Pywal`
 *   используемые утилиты: 
     [neovim](https://github.com/neovim/neovim),
