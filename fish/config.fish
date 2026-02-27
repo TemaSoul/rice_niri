@@ -10,7 +10,7 @@ alias yt-dlp_va='yt-dlp --cookies-from-browser=firefox -4 -f "bestvideo+bestaudi
 # Аудио: чистый звук в m4a (лучшее качество без лишней перекодировки)
 alias yt-dlp_a='yt-dlp --cookies-from-browser=firefox -4 -f "bestaudio/best" --no-mtime --extract-audio --audio-format m4a'
 # Онлайн просмотри для YouTube
-alias mpv_yt='mpv --ytdl-raw-options=force-ipv4="" '
+alias mpv_yt='mpv --ytdl-raw-options="cookies=/home/tema/.config/yt-dlp/cookies.txt,force-ipv4="'
 # root iftop
 alias iftop='doas iftop'
 # poweroff
