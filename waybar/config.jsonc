@@ -15,7 +15,6 @@
     },
     "wireplumber": {
         "format": "| {volume}%",
-        "format-muted": "🔇",
         // "on-click": "pavucontrol",
         "scroll-step": 5
     },
