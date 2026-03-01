@@ -27,7 +27,7 @@
 
 ## swaylock
 *   зависимости: `swaylock-effects` из AUR
-![swaylock gif](./resurces/gif/swaylock.gif)
+![swaylock gif](https://github.com/TemaSoul/rice_niri/blob/main/resurces/gif/swaylock.gif)
 
 ## зависимости
 *   базовые инструменты сборки: `base-devel`, `git`
