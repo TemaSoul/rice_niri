@@ -16,8 +16,9 @@ alias iftop='doas iftop'
 # poweroff
 alias poweroff='systemctl poweroff'
 # send2phone
-alias send2phone 'kdeconnect-cli --device 976c9f2853ad426a8300529bc2c96b74 --share'
-alias cat 'bat'
+alias send2phone='kdeconnect-cli --device 976c9f2853ad426a8300529bc2c96b74 --share'
+alias cat='bat'
+alias comm_back='tmux new-session -d'
 
 
 # переменные
