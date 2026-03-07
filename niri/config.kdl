@@ -317,6 +317,18 @@ animations {
 
 // Work around WezTerm's initial configure bug
 // by setting an empty default-column-width.
+// Workspaces
+workspace "1"
+workspace "2"
+workspace "3"
+workspace "4"
+workspace "5"
+workspace "6"
+workspace "7"
+workspace "8"
+// workspace "9"
+
+
 window-rule {
     // This regular expression is intentionally made as specific as possible,
     // since this is the default config, and we want no false positives.
@@ -352,7 +364,6 @@ window-rule {
 }
 
 window-rule {
-    // Для нативного Telegram из Arch репозиториев
     match app-id="org.telegram.desktop"
     match app-id="Telegram"
     open-on-workspace "1"

@@ -5,7 +5,6 @@
 ![Скриншот рабочего стола Niri 0](./resurces/screenshots/pfetch_2026-02-23_07-21.png)
 ![Скриншот рабочего стола Niri 1](./resurces/screenshots/tmux_2026-02-23_07-20.png)
 ![Скриншот рабочего стола Niri 3](./resurces/screenshots/fuzzle_2026-02-23_07-21.png)
-![Скриншот рабочего стола Niri 5](./resurces/screenshots/keybind.png)
 
 ## особенности
 *   ![цветовая схема](./colors): `gruvbox` + `Pywal`
@@ -28,6 +27,9 @@
 ## swaylock
 *   зависимости: `swaylock-effects` из AUR
 ![swaylock gif](https://github.com/TemaSoul/rice_niri/blob/main/resurces/gif/swaylock.gif)
+
+## keybinds
+`Mod`+`Shift`+`/`
 
 ## зависимости
 *   базовые инструменты сборки: `base-devel`, `git`
