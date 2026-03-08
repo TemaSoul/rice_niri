@@ -2,8 +2,8 @@
 это мой *rice* для оконного менеджера [niri](https://github.com/YaLTeR/niri).
 
 ## скриншоты
-![Скриншот рабочего стола Niri 0](./resurces/screenshots/pfetch_2026-02-23_07-21.png)
-![Скриншот рабочего стола Niri 1](./resurces/screenshots/tmux_2026-02-23_07-20.png)
+![Скриншот рабочего стола Niri 0](./resurces/screenshots/pfetch.png)
+![Скриншот рабочего стола Niri 1](./resurces/screenshots/tmux.png)
 ![Скриншот рабочего стола Niri 3](./resurces/screenshots/fuzzle_2026-02-23_07-21.png)
 
 ## особенности
