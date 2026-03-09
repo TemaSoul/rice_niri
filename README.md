@@ -31,6 +31,7 @@
 
 ## fastfetch
 ![fehch](./resurces/screenshots/fastfetch.png)
+
 ![config](./fastfetch/config.jsonc)
 
 ## keybinds
