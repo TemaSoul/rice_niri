@@ -17,6 +17,7 @@
     [swww](https://github.com/LGFae/swww),
     [tmux](https://github.com/tmux/tmux),
     [fish](https://github.com/fish-shell/fish-shell),
+    [fastfetch](https://github.com/fastfetch-cli/fastfetch)
     [gammastep](https://gitlab.com/chinstrap/gammastep),
     [cmus](https://github.com/cmus/cmus),
     [swaylock](https://github.com/swaywm/swaylock)
@@ -30,6 +31,7 @@
 
 ## fastfetch
 ![fehch](./resurces/screenshots/fastfetch.png)
+![config](./fastfetch/config.jsonc)
 
 ## keybinds
 `Mod`+`Shift`+`/`
