@@ -318,7 +318,7 @@ animations {
 // Work around WezTerm's initial configure bug
 // by setting an empty default-column-width.
 // Workspaces
-workspace "1"
+workspace "1"   // 一 二 三 四 五 六 七 八 九
 workspace "2"
 workspace "3"
 workspace "4"

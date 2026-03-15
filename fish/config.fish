@@ -17,6 +17,7 @@ alias poweroff='systemctl poweroff'
 alias send2phone='kdeconnect-cli --device 976c9f2853ad426a8300529bc2c96b74 --share'
 alias cat='bat'
 alias comm_back='tmux new-session -d'
+alias shr='doas sh'
 
 # переменные
 set -gx DISPLAY :0
