@@ -29,10 +29,14 @@
 *   зависимости: `swaylock-effects` из AUR
 ![swaylock gif](https://github.com/TemaSoul/rice_niri/blob/main/resurces/gif/swaylock.gif)
 
+## waybar
+![waybar](./resurces/screenshots/waybar.png)
+
+![config waybar](./waybar/)
 ## fastfetch
 ![fehch](./resurces/screenshots/fastfetch.png)
 
-![config](./fastfetch/config.jsonc)
+![config fastfetch](./fastfetch/)
 
 ## keybinds
 `Mod`+`Shift`+`/`
