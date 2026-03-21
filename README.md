@@ -27,7 +27,7 @@
 
 ## swaylock
 *   зависимости: `swaylock-effects` из AUR
-![swaylock gif](https://codeberg.org/tema93/rice_niri/src/branch/main/resurces/gif/swaylock.gif)
+![swaylock gif](./resurces/gif/swaylock.gif)
 
 ## waybar
 ![waybar](./resurces/screenshots/waybar.png)
