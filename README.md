@@ -2,9 +2,9 @@
 это мой *rice* для оконного менеджера [niri](https://github.com/YaLTeR/niri).
 
 ## скриншоты
-![Скриншот рабочего стола Niri 0](./resurces/screenshots/fetch.pn)
-![Скриншот рабочего стола Niri 1](./resurces/screenshots/tmux.pn)
-![Скриншот рабочего стола Niri 3](./resurces/screenshots/fuzzle.pn)
+![Скриншот рабочего стола Niri 0](./resurces/screenshots/fetch.png)
+![Скриншот рабочего стола Niri 1](./resurces/screenshots/tmux.png)
+![Скриншот рабочего стола Niri 3](./resurces/screenshots/fuzzle.png)
 
 ## особенности
 *   ![цветовая схема](./colors): `gruvbox` + `Pywal`
@@ -30,11 +30,11 @@
 ![swaylock gif](https://codeberg.org/tema93/rice_niri/raw/branch/main/resurces/gif/swaylock.gif)
 
 ## waybar
-![waybar](./resurces/screenshots/waybar.pn)
+![waybar](./resurces/screenshots/waybar.png)
 
 ![config waybar](./waybar/)
 ## fastfetch
-![fehch](./resurces/screenshots/fastfetch.pn)
+![fehch](./resurces/screenshots/fastfetch.png)
 
 ![config fastfetch](./fastfetch/)
 
