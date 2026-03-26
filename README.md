@@ -2,9 +2,9 @@
 это мой *rice* для оконного менеджера [niri](https://github.com/YaLTeR/niri).
 
 ## скриншоты
-![Скриншот рабочего стола Niri 0](./resurces/screenshots/fetch.png)
-![Скриншот рабочего стола Niri 1](./resurces/screenshots/tmux.png)
-![Скриншот рабочего стола Niri 3](./resurces/screenshots/fuzzle.png)
+![Скриншот рабочего стола Niri 0](./resurces/screenshots/fetch.pn)
+![Скриншот рабочего стола Niri 1](./resurces/screenshots/tmux.pn)
+![Скриншот рабочего стола Niri 3](./resurces/screenshots/fuzzle.pn)
 
 ## особенности
 *   ![цветовая схема](./colors): `gruvbox` + `Pywal`
