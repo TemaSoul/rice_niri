@@ -262,9 +262,9 @@ spawn-sh-at-startup "kdeconnectd"
 spawn-sh-at-startup "python /home/tema/my-startpage/server.py"
 spawn-sh-at-startup "docker run searxng"
 spawn-sh-at-startup "gammastep"
-spawn-at-startup "flameshot"
 spawn-at-startup "firefox"
-spawn-at-startup "KeePassXC"
+spawn-at-startup "Telegram"
+spawn-at-startup "keepassxc"
 
 // To run a shell command (with variables, pipes, etc.), use spawn-sh-at-startup:
 // spawn-sh-at-startup "qs -c ~/source/qs/MyAwesomeShell"
@@ -432,6 +432,7 @@ binds {
     // multi-media
     
     /// volume
+    Mod+Alt+8 { spawn "wpctl" "set-mute" "@DEFAULT_AUDIO_SINK@" "toggle"; }
     Mod+Alt+0 { spawn "wpctl" "set-volume" "@DEFAULT_AUDIO_SINK@" "0.05+"; }
     Mod+Alt+9 { spawn "wpctl" "set-volume" "@DEFAULT_AUDIO_SINK@" "0.05-"; }
     /// play

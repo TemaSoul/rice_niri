@@ -1,5 +1,6 @@
 -- ~/.config/nvim/init.lua
 -- Минимальный конфиг на Lazy.nvim + colorizer (простая настройка)
+-- Добавлено автодополнение командной строки (cmp-cmdline)
 
 -- Устанавливаем Lazy.nvim, если его нет
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
@@ -103,6 +104,8 @@ require("lazy").setup({
 			"hrsh7th/cmp-path",
 			-- Источник для слов из буфера (полезно)
 			"hrsh7th/cmp-buffer",
+			-- Источник для командной строки (добавлено)
+			"hrsh7th/cmp-cmdline",
 			-- Для красивого меню (опционально)
 			"L3MON4D3/LuaSnip",
 		},
@@ -129,11 +132,27 @@ require("lazy").setup({
 					["<C-u>"] = cmp.mapping.scroll_docs(-4),
 				}),
 				sources = cmp.config.sources({
-					{ name = "path" }, -- <-- ВОТ ОНО: автодополнение путей!
+					{ name = "path" }, -- автодополнение путей!
 					{ name = "buffer" }, -- слова из открытых файлов
 				}, {
 					{ name = "luasnip" }, -- сниппеты
 				}),
+			})
+
+			-- Настройка автодополнения командной строки (:)
+			cmp.setup.cmdline(':', {
+				mapping = cmp.mapping.preset.cmdline(),
+				sources = cmp.config.sources({
+					{ name = 'cmdline' }
+				})
+			})
+
+			-- Опционально: автодополнение для поиска (/)
+			cmp.setup.cmdline('/', {
+				mapping = cmp.mapping.preset.cmdline(),
+				sources = {
+					{ name = 'buffer' }
+				}
 			})
 		end,
 	},
@@ -201,7 +220,7 @@ require("lazy").setup({
 			require("lint").linters_by_ft = {
 				javascript = { "eslint" },
 				typescript = { "eslint" },
-				lua = { "luacheck" }, -- <-- вот эта строка вызывает ошибку
+				lua = { "luacheck" }, -- <-- эта строка требует установленного luacheck
 			}
 			vim.api.nvim_create_autocmd({ "BufWritePost" }, {
 				callback = function()

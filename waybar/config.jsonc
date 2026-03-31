@@ -4,28 +4,39 @@
     "height": 24,
     "modules-left": ["niri/workspaces", "custom/void", "custom/dwm", "custom/void2", "niri/window"],
     "modules-center": [],
-    "modules-right": ["custom/separater", "wireplumber", "custom/separater", "niri/language", "custom/separater", "clock"],
+    "modules-right": ["custom/separater", "pulseaudio", "custom/separater", "niri/language", "custom/separater", "clock"],
     
     "niri/workspaces": {
-    "format": "{icon}", 
-    "format-icons": {
-        "1": "一",
-        "2": "二",
-        "3": "三",
-        "4": "四",
-        "5": "五",
-        "6": "六",
-        "7": "七",
-        "8": "八",
-        "9": "九",
-        "default": "№"
-    }
+      "format": "{icon}", 
+      "format-icons": {
+          "1": "一",
+          "2": "二",
+          "3": "三",
+          "4": "四",
+          "5": "五",
+          "6": "六",
+          "7": "七",
+          "8": "八",
+          "9": "九",
+          "default": " "
+      }
     },
-    "wireplumber": {
-        "format": "{volume}%",
-        // "on-click": "pavucontrol",
-        "scroll-step": 5
-    },
+    "pulseaudio": { //   
+        // "scroll-step": 1, // %, can be a float
+        "format": "  {volume}%",
+        "format-muted": "  {volume}%",
+            "default": ["", "", ""]
+        },
+        //   "pulseaudio": { //   
+        // // "scroll-step": 1, // %, can be a float
+        // "format": "  {volume}% / {format_source}",
+        // "format-bluetooth": "{volume}% {icon} {format_source}",
+        // "format-bluetooth-muted": "󰅶 {icon} {format_source}",
+        // "format-muted": "  {volume}% / {format_source}",
+        // "format-source": "{volume}% ",
+        // "format-source-muted": "",
+        //     "default": ["", "", ""]
+        // },
     "niri/window": {
         "format": "{}",
         "separate-outputs": true
@@ -49,6 +60,11 @@
 
     "custom/separater": {
       "exec": "echo ' | '",
+      "interval": 0
+    },
+
+    "custom/separater_alt": {
+      "exec": "echo ' / '",
       "interval": 0
     },
 
