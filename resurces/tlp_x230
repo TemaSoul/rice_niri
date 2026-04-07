@@ -1,0 +1,81 @@
+# /etc/default/tlp - для ThinkPad X230 с Arch Linux
+# Оптимизировано под SSD, лёгкий стек (niri), максимальную автономность
+
+TLP_ENABLE=1
+
+# Отключаем laptop mode для SSD (он не нужен)
+DISK_IDLE_SECS_ON_AC=0
+DISK_IDLE_SECS_ON_BAT=0
+
+# Dirty page timeouts (оставляем по умолчанию)
+MAX_LOST_WORK_SECS_ON_AC=15
+MAX_LOST_WORK_SECS_ON_BAT=60
+
+# Губернаторы частоты
+CPU_SCALING_GOVERNOR_ON_AC=performance
+CPU_SCALING_GOVERNOR_ON_BAT=powersave
+
+# Отключаем турбо-буст на батарее
+CPU_BOOST_ON_AC=1
+CPU_BOOST_ON_BAT=0
+
+# Энергосбережение планировщика (уменьшение активных ядер)
+SCHED_POWERSAVE_ON_AC=0
+SCHED_POWERSAVE_ON_BAT=1
+
+# Отключаем NMI Watchdog (экономит энергию)
+NMI_WATCHDOG=0
+
+# Диски: у тебя SSD, отключаем APM и парковку
+DISK_DEVICES="sda"
+DISK_APM_LEVEL_ON_AC="254"
+DISK_APM_LEVEL_ON_BAT="254"
+# Spin down не нужен для SSD
+#DISK_SPINDOWN_TIMEOUT_ON_AC="0"
+#DISK_SPINDOWN_TIMEOUT_ON_BAT="0"
+
+# SATA ALPM: максимальная экономия на батарее
+SATA_LINKPWR_ON_AC=max_performance
+SATA_LINKPWR_ON_BAT=min_power
+
+# PCIe ASPM
+PCIE_ASPM_ON_AC=performance
+PCIE_ASPM_ON_BAT=powersave
+
+# Wi-Fi энергосбережение
+WIFI_PWR_ON_AC=1
+WIFI_PWR_ON_BAT=5
+
+# Отключаем Wake-on-LAN
+WOL_DISABLE=Y
+
+# Энергосбережение звука
+SOUND_POWER_SAVE=1
+SOUND_POWER_SAVE_CONTROLLER=Y
+
+# Runtime PM для PCIe: включаем для всех
+RUNTIME_PM_ON_AC=on
+RUNTIME_PM_ON_BAT=auto
+RUNTIME_PM_ALL=1
+# Черный список (если что-то отключается некорректно)
+#RUNTIME_PM_BLACKLIST=""
+
+# USB автоприостановка
+USB_AUTOSUSPEND=1
+# Исключаем WWAN, если он есть (обычно нет)
+USB_BLACKLIST_WWAN=1
+
+# Пороги заряда батареи (продлевают жизнь)
+START_CHARGE_THRESH_BAT0=75
+STOP_CHARGE_THRESH_BAT0=90
+
+# Если у тебя будет вторая батарея (слайс или Ultrabay)
+START_CHARGE_THRESH_BAT1=75
+STOP_CHARGE_THRESH_BAT1=90
+
+# Не восстанавливаем состояние радио при загрузке (пусть всегда включены)
+RESTORE_DEVICE_STATE_ON_STARTUP=0
+
+# Отключаем ненужные радио? Оставь закомментированными, т.к. ты используешь физический выключатель.
+# DEVICES_TO_DISABLE_ON_STARTUP="bluetooth wwan"
+# DEVICES_TO_ENABLE_ON_STARTUP="wifi"
