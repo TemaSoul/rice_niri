@@ -21,10 +21,10 @@
           "default": " "
       }
     },
-    "pulseaudio": { //   
+    "pulseaudio": { //    / 🔈🔊 / 󰕾 󰝟
         // "scroll-step": 1, // %, can be a float
-        "format": "  {volume}%",
-        "format-muted": "  {volume}%",
+        "format": "󰕾  {volume}%",
+        "format-muted": "󰝟  {volume}%",
             "default": ["", "", ""]
         },
         //   "pulseaudio": { //   
@@ -44,8 +44,8 @@
 
     "niri/language": {
         "format": "{}",
-        "format-en": "us",
-        "format-ru": "ru"
+        "format-en": "  us",
+        "format-ru": "  ru"
     },
 
     "custom/void": {

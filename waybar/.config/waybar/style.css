@@ -91,7 +91,11 @@ window#waybar.empty {
   background-color: @color0; 
   color: #fff;    
 }
-    
+
+#language {
+    min-width: 40px;          /* подбери значение, чтобы текст помещался */
+}
+
 /*#clock {*/
 /*	margin: 0px 15px 0px 15px;*/
 /*}*/
