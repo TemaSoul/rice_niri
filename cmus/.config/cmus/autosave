@@ -106,7 +106,7 @@ set pl_sort=
 set play_library=false
 set play_sorted=false
 set progress_bar=line
-set repeat=false
+set repeat=true
 set repeat_current=false
 set replaygain=disabled
 set replaygain_limit=true
@@ -164,6 +164,7 @@ bind common L push live-filter
 bind common M toggle play_library
 bind common N search-prev
 bind common P win-mv-before
+bind common R set repeat_current=invert
 bind common U win-update-cache
 bind common Z player-prev-album
 bind common [ vol +1% +0

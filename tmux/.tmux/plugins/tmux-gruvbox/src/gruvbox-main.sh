@@ -25,7 +25,7 @@ readonly DEFAULT_STATUSBAR_ALPHA='false'
 # defaults for theme option (with color interpolation)
 readonly DEFAULT_LEFT_STATUS_A='#S'
 readonly DEFAULT_RIGHT_STATUS_X='%Y-%m-%d'
-readonly DEFAULT_RIGHT_STATUS_Y='%H:%M'
+readonly DEFAULT_RIGHT_STATUS_Y='%H:%M:%S'
 readonly DEFAULT_RIGHT_STATUS_Z='#h'
 
 main() {
@@ -90,6 +90,7 @@ main() {
     theme_set_dark "${_theme_args[@]}"
     ;;
   esac
+  TMUX_CMDS+=(set-option -g status-interval 1)
 
   # execute commands with tmux as array of options
   tmux "${TMUX_CMDS[@]}"

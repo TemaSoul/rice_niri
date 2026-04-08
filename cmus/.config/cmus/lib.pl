@@ -2136,6 +2136,7 @@ cue:///home/tema/Music/Chris Vrenna & Clint Walsh, Tweaker - Doom 3 Theme Song (
 /home/tema/Music/Serial Experiments Lain OST Collection [FLAC]/[01] Soundtracks/1998.08.07 - A Cry To Fade ; Signal Of Solitude {TODT-5175}/02. Signal of Loneliness.flac
 /home/tema/Music/Serial Experiments Lain OST Collection [FLAC]/[01] Soundtracks/1998.08.07 - A Cry To Fade ; Signal Of Solitude {TODT-5175}/03. Far Cry (Instrumental).flac
 /home/tema/Music/remix/erika - I don’t know ( speed up ) [sBNZcSp4pxY].mp3
+/home/tema/Music/J-POP/Red Liberation/TVアニメ『ひきこまり吸血姫の悶々』ノンクレジットOP（fripSide／Red Liberation） [DPOy0Ntne3g].m4a
 /home/tema/Music/Anime_BEST/JoJo/JoJo's Bizarre Adventure - Ending 10 v1 [4K 60FPS ｜ Creditless ｜ CC] [IvS1TDS_DYc].mp3
 /home/tema/Music/Anime_BEST/JoJo/JoJo's Bizarre Adventure - Ending 10 v2 【Distant Dreamer】 4K 60FPS Creditless ｜ CC [qTZerqxy4i4].mp3
 /home/tema/Music/Anime_BEST/JoJo/JoJo's Bizarre Adventure - Ending 11 【Roundabout】 4K 60FPS Creditless ｜ CC [L1sUOQPjBqg].mp3
@@ -2553,6 +2554,7 @@ cue:///home/tema/Music/Chris Vrenna & Clint Walsh, Tweaker - Doom 3 Theme Song (
 /home/tema/Music/Evangelion/Neon Genesis Evangelion — FLY ME TO THE MOON — CLAIRE (ED Ending Full NGE OST Soundtrack Lyrics) [Ixi0sUpLVRc].mp3
 /home/tema/Music/[New Album] Chill Japanese songs🩷 - 一曲目から中毒的&チルな最高のJapanese songs playlist🎧 [at9sVEzeol4].m4a
 /home/tema/Music/[New Album] Chill Japanese songs🎥 - 全ての曲があなたを虜にするチル＆中毒的なJapanese songs playlist💿 [2f24lTwPlIY].m4a
+/home/tema/Music/my_favorit/Vibe_playlists/the feeling when they say yes.‪♡ playlist [cVo2KlASIR0].mp4
 /home/tema/Music/PH238/yungalligator - i kissed [s9ii2Gc2tB4].mp3
 /home/tema/Music/winter/winter 2004 ambient music to relax [bepGYHbvIKI].m4a
 /home/tema/Music/remix/Джем/майами - австралия (пятый континент) speed up ᝰ [jfvbMHAPHFY].m4a
